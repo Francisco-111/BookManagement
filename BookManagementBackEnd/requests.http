@@ -1,0 +1,25 @@
+### GET all books
+GET http://localhost:8080/api/books
+
+### POST create a book
+POST http://localhost:8080/api/books
+Content-Type: application/json
+
+{
+  "title": "Book1",
+  "author": "Tester",
+  "isbn": "09876543210"
+}
+
+### PUT update a book
+PUT http://localhost:8080/api/books/1
+Content-Type: application/json
+
+{
+   "title": "The Alchemist - Updated",
+  "author": "Paulo Coelho",
+  "isbn": "9780062315007"
+}
+
+### DELETE a book
+DELETE http://localhost:8080/api/books/1
