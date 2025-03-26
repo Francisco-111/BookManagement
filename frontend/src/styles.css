@@ -1,0 +1,79 @@
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.05);
+}
+
+h1 {
+    text-align: center;
+    color: #007bff;
+}
+
+/* Add Book Form */
+.add-book-form {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+input, button {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Search Section */
+.search-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.search-input {
+    flex: 1;
+}
+.search-message {
+    color: red;
+    font-weight: bold;
+}
+
+
+/* Book List */
+.book-item {
+    background-color: #f9f9f9;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #e0e4e8;
+}
+
+.book-item strong {
+    color: #007bff;
+}
+
+.book-item em {
+    color: #555;
+}
+
+.random-text {
+    font-size: 12px; /* Smaller font size */
+    color: rgba(0, 0, 0, 0.5); /* More opaque (lighter) color */
+    margin-left: 5px; /* Space between "Book List" and "Random 10" */
+}
+
